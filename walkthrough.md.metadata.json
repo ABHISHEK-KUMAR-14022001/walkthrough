@@ -1,0 +1,6 @@
+{
+  "artifactType":  "ARTIFACT_TYPE_WALKTHROUGH",
+  "summary":  "Complete walkthrough of EKS production infrastructure with new subnet structure, detailed security group rules, NACL explanation, and connectivity flows for bastion-to-EKS and pods-to-database.",
+  "updatedAt":  "2026-01-03T15:35:51.685222Z",
+  "version":  "4"
+}

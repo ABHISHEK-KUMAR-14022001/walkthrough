@@ -1,0 +1,13 @@
+# VPC/Subnet Restructuring Task
+
+## Tasks
+
+- [ ] Create implementation plan with new subnet structure
+- [ ] Modify [subnet.tf](file:///c:/Users/abhiw/OneDrive/Desktop/devlopment/aws/prod_eks/subnet.tf) - new subnet layout
+- [ ] Modify [bastion.tf](file:///c:/Users/abhiw/OneDrive/Desktop/devlopment/aws/prod_eks/bastion.tf) - use single public subnet
+- [ ] Modify [database-vm.tf](file:///c:/Users/abhiw/OneDrive/Desktop/devlopment/aws/prod_eks/database-vm.tf) - use dedicated DB subnet
+- [ ] Modify [nodegroup.tf](file:///c:/Users/abhiw/OneDrive/Desktop/devlopment/aws/prod_eks/nodegroup.tf) - use EKS private subnets across AZs
+- [ ] Modify [eks.tf](file:///c:/Users/abhiw/OneDrive/Desktop/devlopment/aws/prod_eks/eks.tf) - use EKS private subnets
+- [ ] Update [security_groups.tf](file:///c:/Users/abhiw/OneDrive/Desktop/devlopment/aws/prod_eks/security_groups.tf) if needed
+- [ ] Add NACLs if needed
+- [ ] Update walkthrough with new architecture

@@ -1,0 +1,5 @@
+{
+  "artifactType":  "ARTIFACT_TYPE_IMPLEMENTATION_PLAN",
+  "summary":  "Implementation plan for VPC restructuring with new subnet architecture: 1 public subnet for bastion/NAT, 3 private subnets for EKS across all available AZs in ap-south-1, and 1 dedicated database subnet. Includes detailed CIDR allocation, file changes, and security group updates.",
+  "updatedAt":  "2026-01-03T15:17:56.475387200Z"
+}
